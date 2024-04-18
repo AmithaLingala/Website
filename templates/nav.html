@@ -1,0 +1,27 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <a class="skip-link" href="#content">Skip to main content</a>
+  <a class="skip-link" href="#search">Skip to search</a>
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/">
+      <img class="logo" src="/images/logos/exeami-light.webp" width="196" height="196" id="logo"
+        alt="exeami logo, infinity in curley brackets">
+    </a>
+  </div>
+  <button class="theme-switcher-button black-theme-button" data-theme="black-theme">
+    <img width=30 height=30 class=".is-30x30" src="/images/logos/theme.svg" alt="black theme switch">
+  </button>
+  <input id="menu-toggle" type="checkbox" />
+  <label class='menu-button-container' for="menu-toggle">
+    <span class="visually-hidden">Menu</span>
+    <span class='menu-button'></span>
+  </label>
+  <div class="navbar-menu" id="navbar">
+    {{#each routes}}
+    {{#unless this.is_hidden}}
+    <a href="{{this.url}}" class="navbar-item">{{this.title}}</a>
+    {{/unless}}
+    {{/each}}
+  </div>
+  <label for="search" class="visually-hidden">Search</label>
+  <input type="search" class="search-query" id="search" name="q" placeholder="Search exeami" value="">
+</nav>

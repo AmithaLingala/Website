@@ -1,0 +1,50 @@
+[
+    {
+        "url": "/",
+        "title": "🏡 Home",
+        "subtitle": "Welcome to my home!",
+        "keywords": "exeami",
+        "description": "Personal website of Amitha Lingala",
+        "is_hidden": true
+    },
+    {
+        "url": "/blogs",
+        "title": "Blogs",
+        "subtitle": "Find my latest writings here!",
+        "keywords": "",
+        "description": "Personal website of Amitha Lingala",
+        "sub_page_path": "blogs"
+    },
+    {
+        "url": "/projects",
+        "title": "Projects",
+        "subtitle": "Some of my projects that may interest you.",
+        "keywords": "",
+        "description": "Personal website of Amitha Lingala",
+        "sub_page_path": "projects"
+    },
+    {
+        "url": "/posts",
+        "title": "Posts",
+        "subtitle": "Collection of things which I want to share and, anything I find interesting on internet.",
+        "keywords": "",
+        "description": "Collection of thoughts, news, comics, anything I find interesting on internet.",
+        "sub_page_path": "posts"
+    },
+    {
+        "url": "/contact",
+        "title": "Contact",
+        "subtitle": "Feel free to get in touch!",
+        "keywords": "exeami, amitha lingala",
+        "description": "Personal website of Amitha Lingala"
+    },
+    {
+        "url": "/search",
+        "title": "Search",
+        "subtitle": "",
+        "keywords": "exeami, amitha lingala",
+        "description": "Personal website of Amitha Lingala",
+        "is_hidden": true,
+        "template": "search"
+    }
+]
