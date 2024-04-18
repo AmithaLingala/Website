@@ -27,12 +27,12 @@
       <priority>0.80</priority>
   </url>
   <url>
-      <loc>https://exeami.com/blogs/test/</loc>
-      <lastmod></lastmod>
+      <loc>https://exeami.com/blogs/initial-thoughts/</loc>
+      <lastmod>2024-04-18</lastmod>
       <priority>0.60</priority>
   </url>
   <url>
-      <loc>https://exeami.com/projects/test/</loc>
+      <loc>https://exeami.com/projects/first/</loc>
       <lastmod></lastmod>
       <priority>0.60</priority>
   </url>

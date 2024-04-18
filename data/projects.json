@@ -1,15 +1,12 @@
 [
   {
-    "url": "test",
+    "url": "first",
     "cat": "projects",
-    "title": "Nothing here",
+    "title": "Coming soon!",
     "subtitle": "",
     "keywords": "",
     "description": "",
     "source_link": "",
-    "last_modified": "",
-    "tags": [
-      ""
-    ]
+    "last_modified": ""
   }
 ]
