@@ -1,11 +1,12 @@
 [
     {
         "url": "/",
-        "title": "🏡 Home",
-        "subtitle": "Welcome to my home!",
+        "title": "💬 Amitha Lingala",
+        "subtitle": "A Public Journal",
         "keywords": "exeami",
         "description": "Personal website of Amitha Lingala",
-        "is_hidden": true
+        "is_hidden": true,
+        "template": "home"
     },
     {
         "url": "/blogs",

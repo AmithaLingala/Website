@@ -41,7 +41,7 @@
 }
 
 .white-theme {
-  --primary-bg: #87c0c6;
+  --primary-bg: #fede00;
   --header-bg: rgb(255, 255, 255);
   --content-bg: rgb(255, 255, 255);
   --box-bg: rgb(255, 255, 255);
@@ -185,7 +185,6 @@ mark {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: var(--primary-bg);
   padding-top: 1em;
 }
 
@@ -261,6 +260,30 @@ article.card {
   display: flex;
   margin: 0 auto;
   margin-bottom: 4em;
+}
+
+.p-title {
+  color: var(--font-color);
+  font-size: 5em;
+  font-weight: normal;
+  text-align: center;
+  /* font-family: cursive; */
+}
+
+.p-subtitle {
+  color: var(--font-color);
+  font-size: 3em;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.p-image {
+  padding: 2em;
+}
+
+.p-card-header {
+  padding: 2em;
+  background-color: var(--primary-bg);
 }
 
 .msg-wrapper {
@@ -629,6 +652,14 @@ button.link-button {
 @media only screen and (max-width: 400px) {
   .msg-wrapper {
     margin-top: 5em;
+  }
+
+  .p-title {
+    font-size: 4em;
+  }
+
+  .p-subtitle {
+    font-size: 2em;
   }
 }
 

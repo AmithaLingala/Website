@@ -33,6 +33,15 @@ function switchLogo(themeName) {
       new_logo.setAttribute('src', '/images/logos/exeami-light.webp')
     }
   }
+  const pen = document.getElementById('pen')
+  if (pen !== null) {
+    if (themeName === 'white-theme') {
+      pen.setAttribute('src', '/images/home/pen.svg')
+    }
+    else {
+      pen.setAttribute('src', '/images/home/pen-white.svg')
+    }
+  }
 }
 
 function switchIcons(themeName) {
