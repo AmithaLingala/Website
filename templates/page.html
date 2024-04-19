@@ -6,46 +6,48 @@
   {{> nav routes=page.routes}}
   <main>
     <article class="card" id="content">
-      <span class="h-entry">
-        <header class="card-header">
-          <h1 class="title">{{page.title}}</h1>
-          <h2 class="subtitle">{{page.subtitle}}</h2>
-          {{#if page.last_modified}}
-            <p>
-              <time class="subtitle dt-published" datetime="{{page.last_modified}}">Created on
-                {{page.last_modified}}</time> by <a href="https://exeami.com">Exeami</a>
-            </p>
-          {{/if}}
-
-          {{#if page.category}}
-            <span class="p-category is-padding-left-1">
-              {{page.category}}
-            </span>
-          {{/if}}
-          {{#if page.tags}}
-            <span> {{> tags tags=page.tags}} </span>
-          {{/if}}
+      <div class="card-body e-content">
+        <header class="card-item">
+          <h1 class="generic-header">{{page.title}}</h1>
+          <div class="p-image generic-image">
+            <img id="pen" class="pen" src="/images/home/pen-white.svg" alt="pen">
+          </div>
         </header>
-        <div class="card-body e-content">
+        <div class="card-item">
           {{#if page.content}}
+
             {{#if page.cat}}
-              <div class="card-item">
-                {{> (lookup page 'content')}}
-              </div>
-              <span class="reply-box"><a class="link-button"
-                  href="mailto:contact@exeami.com?subject=Comment on '{{page.title}}'&amp;body=Link: https://exeami.com/{{page.cat}}/{{page.url}}">Comment
-                  via email</a></span><br>
-            {{else}}
+
               {{> (lookup page 'content')}}
-            {{/if}}
+              {{#if page.last_modified}}
+                <p>
+                  <time class="subtitle dt-published" datetime="{{page.last_modified}}">Created on
+                    {{page.last_modified}}</time> by <a href="https://exeami.com">Exeami</a>
+                </p>
+              {{/if}}
+
+              {{#if page.category}}
+                <span class="p-category is-padding-left-1">
+                  {{page.category}}
+                </span>
+              {{/if}}
+              {{#if page.tags}}
+                <span> {{> tags tags=page.tags}} </span>
+              {{/if}}
+        </div>
+        <span class="reply-box"><a class="link-button"
+            href="mailto:contact@exeami.com?subject=Comment on '{{page.title}}'&amp;body=Link: https://exeami.com/{{page.cat}}/{{page.url}}">Comment
+            via email</a></span><br>
+        {{else}}
+          {{> (lookup page 'content')}}
+          {{/if}}
           {{/if}}
 
           {{#if page.content-item}}
             {{> (lookup page 'content-item') data=page.content-data}}
           {{/if}}
-        </div>
+      </div>
 
-      </span>
       {{#if page.suggestions}}
         <div>
           <h2 class="is-text-center">Recent Blogs</h2>

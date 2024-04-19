@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en-GB-oed">
+{{> header page=page}}
+
+<body>
+  {{> nav routes=page.routes}}
+  <main>
+    <article class="card" id="content">
+      <div class="card-item">
+        <header>
+          <h1 class="generic-header">{{page.title}}</h1>
+          <div class="p-image generic-image">
+            <img id="pen" class="pen" src="/images/home/pen-white.svg" alt="pen">
+          </div>
+        </header>
+        {{#if page.content}}
+          {{> (lookup page 'content')}}
+        {{/if}}
+      </div>
+    </article>
+    {{> theme-switcher}}
+  </main>
+  {{> footer}}
+</body>
+
+</html>

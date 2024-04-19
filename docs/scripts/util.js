@@ -21,18 +21,6 @@ function switchLogo(themeName) {
       logo.setAttribute('src', '/images/logos/exeami-light.webp')
     }
   }
-
-  const old_logo = document.getElementById('logo-old')
-  const new_logo = document.getElementById('logo-new')
-  if (old_logo !== null && new_logo !== null) {
-    if (themeName === 'white-theme') {
-      old_logo.setAttribute('src', '/images/logos/logo-old.svg')
-      new_logo.setAttribute('src', '/images/logos/exeami.webp')
-    } else {
-      old_logo.setAttribute('src', '/images/logos/logo-old-light.svg')
-      new_logo.setAttribute('src', '/images/logos/exeami-light.webp')
-    }
-  }
   const pen = document.getElementById('pen')
   if (pen !== null) {
     if (themeName === 'white-theme') {

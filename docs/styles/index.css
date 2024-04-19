@@ -151,7 +151,7 @@ mark {
   top: -9999px;
   left: -9999px;
   color: var(--link);
-  background-color: var(--primary-bg);
+  background-color: var(--content-bg);
 }
 
 .skip-link:focus {
@@ -161,6 +161,24 @@ mark {
   top: 7px;
   z-index: 1000000;
   padding: 1em;
+}
+
+.generic-image {
+  display: flex;
+  justify-content: center;
+}
+
+img.pen {
+  width: auto;
+  height: 2em;
+}
+
+.generic-header {
+  color: var(--font-color);
+  font-size: 2.5em;
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
 }
 
 .quote {
@@ -221,7 +239,7 @@ mark {
 .footer {
   padding: 1em;
   text-align: center;
-  background-color: var(--primary-bg);
+  background-color: var(--content-bg);
   box-shadow: var(--card-shadow);
 }
 

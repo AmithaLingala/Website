@@ -37,7 +37,8 @@
         "title": "Contact",
         "subtitle": "Feel free to get in touch!",
         "keywords": "exeami, amitha lingala",
-        "description": "Personal website of Amitha Lingala"
+        "description": "Personal website of Amitha Lingala",
+        "template": "generic"
     },
     {
         "url": "/search",
@@ -47,5 +48,14 @@
         "description": "Personal website of Amitha Lingala",
         "is_hidden": true,
         "template": "search"
+    },
+    {
+        "url": "/thankyou",
+        "title": "Thank you!",
+        "subtitle": "",
+        "keywords": "credits, amitha lingala",
+        "description": "Personal website of Amitha Lingala",
+        "is_hidden": true,
+        "template": "generic"
     }
 ]
