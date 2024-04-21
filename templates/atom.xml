@@ -2,12 +2,12 @@
 <?xml-stylesheet href="/styles/atom.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-<title>Exeami {{cat}}</title>
+<title>Amitha Lingala {{cat}}</title>
 <subtitle type="html">My recent works can be found here. To know me more, go to &lt;a href="https://exeami.com"&gt;exeami.com&lt;/a&gt;</subtitle>
 <link rel="self" href="https://exeami.com/{{cat}}/feed/" />
 <updated>{{date}}T00:00:00Z</updated>
 <author>
-  <name>Exeami</name>
+  <name>Amitha Lingala</name>
   <email>contact@exeami.com</email>
   <uri>https://exeami.com/</uri>
 </author>

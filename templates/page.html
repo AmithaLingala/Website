@@ -12,28 +12,22 @@
           <div class="p-image generic-image">
             <img id="pen" class="pen" src="/images/home/pen-white.svg" alt="pen">
           </div>
+          {{#if page.last_modified}}
+            <time class="subtitle dt-published" datetime="{{page.last_modified}}">
+              {{page.last_modified}}</time>
+          {{/if}}
         </header>
         <div class="card-item">
           {{#if page.content}}
-
             {{#if page.cat}}
-
-              {{> (lookup page 'content')}}
-              {{#if page.last_modified}}
-                <p>
-                  <time class="subtitle dt-published" datetime="{{page.last_modified}}">Created on
-                    {{page.last_modified}}</time> by <a href="https://exeami.com">Exeami</a>
-                </p>
-              {{/if}}
-
               {{#if page.category}}
                 <span class="p-category is-padding-left-1">
                   {{page.category}}
                 </span>
               {{/if}}
-              {{#if page.tags}}
-                <span> {{> tags tags=page.tags}} </span>
-              {{/if}}
+
+              {{> (lookup page 'content')}}
+
         </div>
         <span class="reply-box"><a class="link-button"
             href="mailto:contact@exeami.com?subject=Comment on '{{page.title}}'&amp;body=Link: https://exeami.com/{{page.cat}}/{{page.url}}">Comment

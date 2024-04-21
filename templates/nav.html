@@ -17,11 +17,11 @@
   </label>
   <div class="navbar-menu" id="navbar">
     {{#each routes}}
-    {{#unless this.is_hidden}}
-    <a href="{{this.url}}" class="navbar-item">{{this.title}}</a>
-    {{/unless}}
+      {{#unless this.is_hidden}}
+        <a href="{{this.url}}" class="navbar-item">{{this.title}}</a>
+      {{/unless}}
     {{/each}}
   </div>
   <label for="search" class="visually-hidden">Search</label>
-  <input type="search" class="search-query" id="search" name="q" placeholder="Search exeami" value="">
+  <input type="search" class="search-query" id="search" name="q" placeholder="Search in this site" value="">
 </nav>

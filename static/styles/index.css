@@ -436,6 +436,11 @@ article.card {
   margin: auto;
 }
 
+.dt-published {
+  margin-left: 85%;
+  font-weight: bold;
+}
+
 .search-box {
   display: flex;
   background-color: var(--primary-bg);
