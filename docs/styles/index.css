@@ -304,6 +304,7 @@ article.card {
 .p-card-header {
   padding: 2em;
   background-color: var(--primary-bg);
+
 }
 
 .msg-wrapper {

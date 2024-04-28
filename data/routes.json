@@ -3,7 +3,7 @@
         "url": "/",
         "title": "💬 Amitha Lingala",
         "subtitle": "A Public Journal",
-        "keywords": "exeami",
+        "keywords": "amitha",
         "description": "Personal website of Amitha Lingala",
         "is_hidden": true,
         "template": "home"
@@ -36,7 +36,7 @@
         "url": "/contact",
         "title": "Contact",
         "subtitle": "Feel free to get in touch!",
-        "keywords": "exeami, amitha lingala",
+        "keywords": "amitha, amitha lingala",
         "description": "Personal website of Amitha Lingala",
         "template": "generic"
     },
@@ -44,7 +44,7 @@
         "url": "/search",
         "title": "Search",
         "subtitle": "",
-        "keywords": "exeami, amitha lingala",
+        "keywords": "amitha, amitha lingala",
         "description": "Personal website of Amitha Lingala",
         "is_hidden": true,
         "template": "search"

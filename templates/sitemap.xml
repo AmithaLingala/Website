@@ -3,7 +3,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 {{#each page}}
   <url>
-      <loc>https://exeami.com{{this.url}}/</loc>
+      <loc>https://amitha.life{{this.url}}/</loc>
       <lastmod>{{this.last_modified}}</lastmod>
       <priority>{{this.priority}}</priority>
   </url>

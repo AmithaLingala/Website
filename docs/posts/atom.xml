@@ -3,21 +3,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 <title>Amitha Lingala posts</title>
-<subtitle type="html">My recent works can be found here. To know me more, go to &lt;a href="https://exeami.com"&gt;exeami.com&lt;/a&gt;</subtitle>
-<link rel="self" href="https://exeami.com/posts/feed/" />
+<subtitle type="html">My recent works can be found here. To know me more, go to &lt;a href="https://amitha.life"&gt;amitha.life&lt;/a&gt;</subtitle>
+<link rel="self" href="https://amitha.life/posts/feed/" />
 <updated>2024-04-18T00:00:00Z</updated>
 <author>
   <name>Amitha Lingala</name>
-  <email>contact@exeami.com</email>
-  <uri>https://exeami.com/</uri>
+  <email>contact@amitha.life</email>
+  <uri>https://amitha.life/</uri>
 </author>
-<icon>https://exeami.com/images/logos/exeami-with-bg.webp</icon>
-<id>https://exeami.com/</id>
+<icon>https://amitha.life/images/logos/exeami-with-bg.webp</icon>
+<id>https://amitha.life/</id>
 
   <entry>
     <title>Why?</title>
-    <link rel="alternate" type="text/html" href="https://exeami.com/posts/why"/>
-    <id>https://exeami.com/posts/why</id>
+    <link rel="alternate" type="text/html" href="https://amitha.life/posts/why"/>
+    <id>https://amitha.life/posts/why</id>
     <updated>2024-04-18T00:00:00Z</updated>
     <summary>📄 Note</summary>
     <content type="html">
@@ -25,8 +25,8 @@
 		</content>
     
     <author>
-			<name>Exeami</name>
-			<email>contact@exeami.com</email>
+			<name>Amitha</name>
+			<email>contact@amitha.life</email>
 		</author>
   </entry>
 </feed>

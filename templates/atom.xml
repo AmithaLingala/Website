@@ -3,22 +3,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 <title>Amitha Lingala {{cat}}</title>
-<subtitle type="html">My recent works can be found here. To know me more, go to &lt;a href="https://exeami.com"&gt;exeami.com&lt;/a&gt;</subtitle>
-<link rel="self" href="https://exeami.com/{{cat}}/feed/" />
+<subtitle type="html">My recent works can be found here. To know me more, go to &lt;a href="https://amitha.life"&gt;amitha.life&lt;/a&gt;</subtitle>
+<link rel="self" href="https://amitha.life/{{cat}}/feed/" />
 <updated>{{date}}T00:00:00Z</updated>
 <author>
   <name>Amitha Lingala</name>
-  <email>contact@exeami.com</email>
-  <uri>https://exeami.com/</uri>
+  <email>contact@amitha.life</email>
+  <uri>https://amitha.life/</uri>
 </author>
-<icon>https://exeami.com/images/logos/exeami-with-bg.webp</icon>
-<id>https://exeami.com/</id>
+<icon>https://amitha.life/images/logos/exeami-with-bg.webp</icon>
+<id>https://amitha.life/</id>
 
 {{#each pages}}
   <entry>
     <title>{{this.title}}</title>
-    <link rel="alternate" type="text/html" href="https://exeami.com/{{this.cat}}/{{this.url}}"/>
-    <id>https://exeami.com/{{this.cat}}/{{this.url}}</id>
+    <link rel="alternate" type="text/html" href="https://amitha.life/{{this.cat}}/{{this.url}}"/>
+    <id>https://amitha.life/{{this.cat}}/{{this.url}}</id>
     <updated>{{this.last_modified}}T00:00:00Z</updated>
     {{#if (is_defined this 'description') }}
     <summary>{{this.description}}</summary>
@@ -28,8 +28,8 @@
 		</content>
     
     <author>
-			<name>Exeami</name>
-			<email>contact@exeami.com</email>
+			<name>Amitha</name>
+			<email>contact@amitha.life</email>
 		</author>
   </entry>
 {{/each}}

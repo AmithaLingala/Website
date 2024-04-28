@@ -1,5 +1,5 @@
-const host = 'https://search.exeami.com'
-const site = 'amithalingala.com'
+const host = 'https://search.amitha.life'
+const site = 'amitha.life'
 async function search(query) {
   if (query.length > 0) {
     const response = await fetch(`${host}/?query=${query}&site=${site}`)
