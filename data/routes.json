@@ -1,10 +1,10 @@
 [
     {
         "url": "/",
-        "title": "💬 Amitha Lingala",
-        "subtitle": "A Public Journal",
+        "title": "Welcome to Amitha.Life!",
+        "subtitle": "(Amitha's Life)",
         "keywords": "amitha",
-        "description": "Personal website of Amitha Lingala",
+        "description": "Personal website of Amitha",
         "is_hidden": true,
         "template": "home"
     },
@@ -13,7 +13,7 @@
         "title": "Blogs",
         "subtitle": "Find my latest writings here!",
         "keywords": "",
-        "description": "Personal website of Amitha Lingala",
+        "description": "Personal website of Amitha",
         "sub_page_path": "blogs"
     },
     {
@@ -29,23 +29,23 @@
         "title": "Bookmarks",
         "subtitle": "Some of my projects that may interest you.",
         "keywords": "",
-        "description": "Personal website of Amitha Lingala",
+        "description": "Personal website of Amitha",
         "template": "generic"
     },
     {
         "url": "/contact",
         "title": "Contact",
         "subtitle": "Feel free to get in touch!",
-        "keywords": "amitha, amitha lingala",
-        "description": "Personal website of Amitha Lingala",
+        "keywords": "amitha, Amitha",
+        "description": "Personal website of Amitha",
         "template": "generic"
     },
     {
         "url": "/search",
         "title": "Search",
         "subtitle": "",
-        "keywords": "amitha, amitha lingala",
-        "description": "Personal website of Amitha Lingala",
+        "keywords": "amitha, Amitha",
+        "description": "Personal website of Amitha",
         "is_hidden": true,
         "template": "search"
     },
@@ -53,8 +53,8 @@
         "url": "/thankyou",
         "title": "Thank you!",
         "subtitle": "",
-        "keywords": "credits, amitha lingala",
-        "description": "Personal website of Amitha Lingala",
+        "keywords": "credits, Amitha",
+        "description": "Personal website of Amitha",
         "is_hidden": true,
         "template": "generic"
     }

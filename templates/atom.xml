@@ -2,12 +2,12 @@
 <?xml-stylesheet href="/styles/atom.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-<title>Amitha Lingala {{cat}}</title>
+<title>Amitha {{cat}}</title>
 <subtitle type="html">My recent works can be found here. To know me more, go to &lt;a href="https://amitha.life"&gt;amitha.life&lt;/a&gt;</subtitle>
 <link rel="self" href="https://amitha.life/{{cat}}/feed/" />
 <updated>{{date}}T00:00:00Z</updated>
 <author>
-  <name>Amitha Lingala</name>
+  <name>Amitha</name>
   <email>contact@amitha.life</email>
   <uri>https://amitha.life/</uri>
 </author>
