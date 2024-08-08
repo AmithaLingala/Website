@@ -84,7 +84,7 @@ function copyPath(target, path) {
   setTimeout(() => {
     target.textContent = target.getAttribute('data-original-value')
   }, 1000)
-  url = `${window.location.host}${path}`
+  url = `${window.location.protocol}//${window.location.host}${path}`
   navigator.clipboard.writeText(url)
 }
 
