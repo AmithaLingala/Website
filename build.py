@@ -86,8 +86,8 @@ def generate_page(route, category="main"):
     page_file_name = utils.get_filename_from_page(route)
     output_path = create_output_path(route, category, page_file_name)
 
-    if (category == "blogs" or page_file_name == "index"):
-        generate_blog_suggestions(route)
+    # if (category == "blogs" or page_file_name == "index"):
+    #     generate_blog_suggestions(route)
     if (page_file_name == "index"):
         generate_posts_suggestions(route)
 
@@ -112,8 +112,8 @@ def generate_sitemap():
             continue
         else:
             data.append({"url":route["url"], "last_modified":str(date.today()), "priority":"0.80"})
-    for blog in utils.get_json_data("blogs"):
-            data.append({"url":"/blogs/"+blog["url"], "last_modified":blog["last_modified"], "priority":"0.60"})
+    # for blog in utils.get_json_data("blogs"):
+    #         data.append({"url":"/blogs/"+blog["url"], "last_modified":blog["last_modified"], "priority":"0.60"})
     for project in utils.get_json_data("projects"):
             data.append({"url": "/projects/"+project["url"], "last_modified":project["last_modified"], "priority":"0.60"})
 
@@ -162,7 +162,7 @@ def main():
     copytree('static', output_dir, dirs_exist_ok=True)
     generate_website()
     generate_sitemap()
-    generate_atom_feed("blogs")
+    # generate_atom_feed("blogs")
     generate_atom_feed("posts")
     full_output_path = join(os.getcwd(), output_dir)
     print("Generated website can be found in {0}".format(full_output_path))

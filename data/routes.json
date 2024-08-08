@@ -9,14 +9,6 @@
         "template": "home"
     },
     {
-        "url": "/blogs",
-        "title": "Blogs",
-        "subtitle": "Find my latest writings here!",
-        "keywords": "",
-        "description": "Personal website of Amitha",
-        "sub_page_path": "blogs"
-    },
-    {
         "url": "/posts",
         "title": "Posts",
         "subtitle": "Collection of things which I want to share and, anything I find interesting on internet.",
