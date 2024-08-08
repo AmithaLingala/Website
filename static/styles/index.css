@@ -293,7 +293,7 @@ article.card {
 .p-subtitle {
   color: var(--font-color);
   font-size: 3em;
-  font-weight: lighter;
+  font-weight: normal;
   text-align: center;
 }
 
@@ -690,6 +690,14 @@ button.link-button {
 @media only screen and (min-width: 400px) and (max-width: 760px) {
   .msg-wrapper {
     margin-top: 3.5em;
+  }
+
+  .p-title {
+    font-size: 4em;
+  }
+
+  .p-subtitle {
+    font-size: 2em;
   }
 
   .banner {
